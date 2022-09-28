@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-save" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#tools"/>
+    <link type="seealso" xref="project-audio"/>
+    <link type="seealso" xref="project-video"/>
+    <link type="seealso" xref="project-data"/>
+    <desc>Gardar un proxecto para editalo ou grabalo máis tarde.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Diéguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2010-2020.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leandro Regueiro</mal:name>
+      <mal:email>leandro.regueiro@gmail.com</mal:email>
+      <mal:years>2011.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marcos Lans</mal:name>
+      <mal:email>marcoslansgarza@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Gardar un proxecto</title>
+
+  <p>Pode gardar un proxecto de audio, de datos ou de vídeo en <app>Brasero</app> para editalo ou grabalo máis tarde.</p>
+
+  <steps>
+    <item>
+      <p>Cree o proxecto e engada os ficheiros que desexa usar no proxecto.</p>
+    </item>
+    <item>
+      <p>Prema <guiseq><gui>Proxecto</gui><gui>Gardar</gui></guiseq> para gardar o proxecto.</p>
+    </item>
+    <item>
+      <p>Escriba o nome que desexa para gardar o proxecto, logo prema <gui>Gardar</gui> para gardar o proxecto.</p>
+    </item>
+  </steps>
+
+  <p>Hai moitas formas polas que pode abrir un proxecto gardado por <app>Brasero</app>:</p>
+
+  <list>
+    <item>
+      <p>seleccionándoo desde a lista da páxina de inico, baixo <gui>Proxecto recente</gui></p>
+    </item>
+    <item>
+      <p>premendo <guiseq><gui>Proxecto</gui><gui>Proxectos recentes</gui></guiseq></p>
+    </item>
+    <item>
+      <p>premendo <guiseq><gui>Proxecto</gui><gui>Abrir</gui></guiseq> e seleccione o proxecto</p>
+    </item>
+    <item>
+      <p>abrir un proxecto dese o explorador de ficheiros</p>
+      <note>
+        <p>Só se pode abrir unha instancia do <app>Brasero</app> ao mesmo tempo. Se tenta abrir unha segunda instancia enfocarase a xanela aberta actual do <app>Brasero</app>.</p>
+        <p>Se o <app>Brasero</app> xa está en execución e tenta abrir algún ficheiro con el desde <app>Ficheiros</app>, aquel engadirase ao proxecto no que está traballando nese momento.</p>
+      </note>
+    </item>
+  </list>
+
+  <note>
+    <p>Se abre un proxecto gardado, <app>Brasero</app> tratarao como un proxecto novo: se quere gardar unha versión actualizada do seu proxecto preguntaralle o nome novo, e neste punto pode sobrescribir a versión anterior ou gárdeo como un proxecto novo escribindo un nome de ficheiro diferente.</p>
+  </note>
+
+</page>

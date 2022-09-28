@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-image-burn" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#new-project"/>
+    <link type="seealso" xref="project-audio"/>
+    <link type="seealso" xref="project-disc-copy"/>
+    <link type="seealso" xref="project-video"/>
+    <revision version="3.3" date="2011-10-14" status="review"/>
+    <desc>Bränna en befintlig skivavbildning till en cd eller dvd.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons DelaLika 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2008, 2009, 2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Bränn avbildning</title>
+
+  <p><app>Brasero</app> låter dig bränna skivavbildningar till en cd- eller dvd-skiva. Det stöder följande filändelser för optiska skivavbildningar: <file>.iso</file>, <file>.toc</file> och <file>.cue</file>.</p>
+
+  <note style="advanced">
+    <p>Skivavbildningar är arkivfiler som innehåller alla data som finns på en cd eller dvd. Endast en skivavbildning kan finnas på en cd vid varje tillfälle, men varje arkiv kan innehålla så lite eller mycket data som du vill, så länge som det ryms på skivan.</p>
+  </note>
+
+  <p>För att bränna en skivavbildning till en cd- eller dvd-skiva, följ dessa steg:</p>
+  <steps>
+    <item>
+      <p>Klicka på <gui>Bränn avbildning</gui> på startsidan eller välj <guiseq><gui>Projekt</gui><gui>Nytt projekt</gui><gui>Bränn avbildning…</gui> </guiseq>.</p>
+    </item>
+    <item>
+      <p>Välj en skivavbildning att skriva genom att klicka på <gui>Klicka här för att välja en skivavbildning</gui>.</p>
+    </item>
+    <item>
+      <p>Välj skivan som du vill använda från rullgardinslistan under <gui>Välj en skiva att skriva till</gui>. Om du har mer är en skivenhet bör alla skivor som för tillfället är i dem listas.</p>
+        <note><p>Efter att ha valt skivan visar <app>Brasero</app> hur mycket fritt utrymme som kommer att kvarstå på skivan efter bränning.</p></note>
+    </item>
+    <item>
+      <p>Klicka på <gui>Egenskaper</gui>-knappen för att välja brännhastighet och andra anpassade alternativ.</p>
+    </item>
+    <item>
+      <p>Klicka på <gui>Bränn</gui> för att börja bränna avbildningen. Efter denna åtgärd kan du antingen sluta bränna eller göra den andra kopian av avbildningen.</p>
+        <note>
+          <p>Om du använder en återskrivningsbar skiva som redan innehåller data kommer du tillfrågas om du vill radera den eller mata in en annan skiva.</p>
+        </note>
+    </item>
+    <!-- There are some problems with multiple burn. After burning one copy,
+    Brasero asks for manual ejecting and then often doesn't detect it. The same
+    problem appears by putting inside new CD or DVD - Brasero doesn't always
+    detect it. Besides the multiple burn option has the same functionality as
+    Burn - they both allow to burn one or several copies, so one option would be
+    enough.-->
+
+  </steps>
+
+</page>

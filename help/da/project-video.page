@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Current version is crashing for me when I click "Burn" -->
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-video" xml:lang="da">
+
+  <info>
+    <link type="guide" xref="index#new-project"/>
+    <title type="sort">3</title>
+    <desc>Skriv en video til en dvd eller svcd.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Deling på samme vilkår 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Opret et videoprojekt</title>
+
+  <p><app>Brasero</app> kan bruges til at oprette videodiske til afspilning i en dvd-afspiller eller bærbar.</p>
+
+  <steps>
+    <item>
+      <p>Klik på <gui>Videoprojekter</gui> på startsiden eller vælg <guiseq><gui>Projekt</gui><gui>Nyt projekt</gui><gui>Nyt videoprojekt</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Tilføj videoerne til projektet ved at klikke på <gui>Tilføj</gui> i værktøjslinjen og vælge filerne. Du kan også tilføje filer ved at trække og slippe dem i projektområdet eller ved at klikke på <guiseq><gui>Redigér</gui><gui>Tilføj filer</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Du kan tilføje en titel til disken i tekstindtastningsfeltet under projektområdet.</p>
+    </item>
+    <item>
+      <p>Vælg den tomme disk i rullegardinslisten.</p>
+    </item>
+    <item>
+      <p>Klik på <gui>Brænd …</gui> for at fortsætte.</p>
+    </item>
+    <item>
+      <p>Vælg <gui>Brændingshastighed</gui> fra rullegardinslisten og andre indstillinger, du vil have.</p>
+    </item>
+    <item>
+      <p>Klik på <gui>Brænd</gui> for at brænde en enkelt disk med projektet eller <gui>Brænd adskillige kopier</gui> for at brænde dit projekt til flere diske.</p>
+    </item>
+  </steps>
+
+</page>

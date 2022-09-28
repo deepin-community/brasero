@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="prob-dvd" xml:lang="da">
+
+  <info>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="project-video"/>
+    <link type="seealso" xref="tools-blank"/>
+    <desc>Jeg kan ikke skrive til en dvd-r eller dvd-rw.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Deling på samme vilkår 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Problemer ved oprettelse af dvd</title>
+
+  <p>Nogle typer dvd-r'er og dvd-rw'er er ikke kompatible med alle brændere. Kontrollér følgende for at finde ud af, om de kan bruges med din brænder.</p>
+
+  <steps>
+    <item>
+      <p>Tjek om dit dvd-drev accepterer dvd+- eller dvd-diske. Hvis der står “multi” på, betyder det normalt, at den accepterer begge dele. Tjek din disk for at se om der står det samme som på dvd-drevet.</p>
+    </item>
+    <item>
+      <p>Kontrollér at din disk er dobbeltlags eller enkeltlags: Nogle dvd-drev kan ikke skrive til en dobbeltlagsdisk.</p>
+    </item>
+    <item>
+      <p>Hvis du prøver at bruge en dvd-r, så tjek om der allerede er blevet skrevet til den. Hvis du bruger en dvd-rw, så prøv og slet den inden du forsøger at skrive til den.</p>
+    </item>
+  </steps>
+
+</page>

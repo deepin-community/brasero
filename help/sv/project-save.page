@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-save" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#tools"/>
+    <link type="seealso" xref="project-audio"/>
+    <link type="seealso" xref="project-video"/>
+    <link type="seealso" xref="project-data"/>
+    <desc>Spara ett projekt för senare redigering eller bränning.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons DelaLika 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2008, 2009, 2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Spara ett projekt</title>
+
+  <p>Du kan spara ett ljud-, data- eller videoprojekt i <app>Brasero</app> för att redigera eller bränna det senare.</p>
+
+  <steps>
+    <item>
+      <p>Skapa projektet och lägg till filerna du vill använda i projektet.</p>
+    </item>
+    <item>
+      <p>Klicka <guiseq><gui>Projekt</gui><gui>Spara</gui></guiseq> för att spara projektet.</p>
+    </item>
+    <item>
+      <p>Ange namnet du vill spara projektet under och klicka sedan <gui>Spara</gui> för att spara projektet.</p>
+    </item>
+  </steps>
+
+  <p>Det finns ett antal sätt som kan användas för att öppna ett sparat <app>Brasero</app>-projekt genom att:</p>
+
+  <list>
+    <item>
+      <p>välja det från listan på startsidan, under <gui>Tidigare projekt</gui></p>
+    </item>
+    <item>
+      <p>klicka <guiseq><gui>Projekt</gui><gui>Tidigare projekt</gui></guiseq></p>
+    </item>
+    <item>
+      <p>klicka <guiseq><gui>Projekt</gui><gui>Öppna</gui></guiseq> och välja projektet</p>
+    </item>
+    <item>
+      <p>öppna projektet från en filbläddrare</p>
+      <note>
+        <p>Endast en instans av <app>Brasero</app> kan vara öppen vid ett tillfälle. Om du försöker öppna en andra instans kommer det redan öppna <app>Brasero</app>-fönstret att fokuseras.</p>
+        <p>Om <app>Brasero</app> redan körs och du försöker öppna några filer med det från <app>Files</app> kommer filerna läggas till i projektet som du redan arbetar med.</p>
+      </note>
+    </item>
+  </list>
+
+  <note>
+    <p>Om du öppnar ett sparat projekt kommer <app>Brasero</app> att behandla det som ett nytt projekt: om du vill spara en uppdaterad version av projektet kommer det be dig att ange ett namn för det. Du kan nu skriva över den gamla versionen eller spara det som ett nytt projekt genom att ange ett annat filnamn.</p>
+  </note>
+
+</page>

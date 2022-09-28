@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-save" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#tools"/>
+    <link type="seealso" xref="project-audio"/>
+    <link type="seealso" xref="project-video"/>
+    <link type="seealso" xref="project-data"/>
+    <desc>Збереження проєкту для подальшого редагування або записування.</desc>
+    <credit type="author">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Збереження проєкту</title>
+
+  <p>У <app>Brasero</app> ви можете зберегти проєкт запису звукових, файлових або відеоданих для подальшого редагування або записування.</p>
+
+  <steps>
+    <item>
+      <p>Створіть проєкт і додайте до нього файли, які має бути використано у проєкті.</p>
+    </item>
+    <item>
+      <p>Виберіть у меню пункт <guiseq><gui>Проєкт</gui><gui>Зберегти</gui></guiseq>, щоб зберегти проєкт.</p>
+    </item>
+    <item>
+      <p>Введіть назву для збереженого проєкту і натисніть кнопку <gui>Зберегти</gui>, щоб зберегти проєкт.</p>
+    </item>
+  </steps>
+
+  <p>Збережений проєкт <app>Brasero</app> можна відкрити у декілька способів:</p>
+
+  <list>
+    <item>
+      <p>вибрати його зі списку на початковій сторінці у списку <gui>Недавні проєкти</gui></p>
+    </item>
+    <item>
+      <p>вибрати у меню пункт <guiseq><gui>Проєкт</gui><gui>Недавні проєкти</gui></guiseq></p>
+    </item>
+    <item>
+      <p>вибрати пункт меню <guiseq><gui>Проєкт</gui><gui>Відкрити</gui></guiseq> і вибрати проєкт</p>
+    </item>
+    <item>
+      <p>відкрити проєкт у програмі для керування файлами</p>
+      <note>
+        <p>Одночасно може бути запущено лише один екземпляр <app>Brasero</app>. Якщо ви спробуєте відкрити другий екземпляр, система просто передасть фокус на поточний відкритий екземпляр <app>Brasero</app>.</p>
+        <p>Якщо <app>Brasero</app> вже запущено, і ви спробуєте відкрити якісь файли за допомогою програми з програми <app>Файли</app>, файли буде додано до проєкту, над яким ви працюєте.</p>
+      </note>
+    </item>
+  </list>
+
+  <note>
+    <p>Якщо ви відкриєте збережений проєкт, <app>Brasero</app> працюватиме з ним як із новим проєктом: якщо ви захочете зберегти оновлену версію проєкту, програма попросить вас ввести назву для неї. На цьому кроці ви можете перезаписати стару версію або записати новий проєкт, ввівши іншу назву файла.</p>
+  </note>
+
+</page>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="tools-blank" xml:lang="eu">
+
+  <info>
+    <link type="guide" xref="index#tools"/>
+    <desc>Erase a rewritable CD or DVD by blanking it.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Hustu diskoa</title>
+
+  <p>You can prepare a rewritable disc, with existing data on it, for writing by
+  blanking it.</p>
+
+  <steps>
+    <item>
+      <p>Hautatu <guiseq><gui>Tresnak</gui><gui>Hustu...</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>If you have more than one disc drive with a rewritable disc in it, you
+      can select which disc to rewrite under <gui>Select a disc</gui>.</p>
+    </item>
+    <item>
+      <p><gui>Huste bizkorra</gui> erabili daiteke CDa azkarrago husteko.</p>
+      <note>
+        <p>If you have problems writing to a disc which you fast blanked, try
+        disabling fast blanking and blank it again.</p>
+      </note>
+    </item>
+    <item>
+      <p>Egin klik <gui>Hustu</gui> aukeran jarraitzeko.</p>
+    </item>
+    <item>
+      <p>Diskoa agian kanporatu egingo da hustea amaitzen denean.</p>
+    </item>
+  </steps>
+
+</page>

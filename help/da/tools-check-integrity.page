@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="tools-check-integrity" xml:lang="da">
+
+  <info>
+    <link type="guide" xref="index#tools"/>
+    <desc>Du kan teste integriteten af en disk efter den er blevet brændt.</desc>
+    <credit type="author">
+      <name>Paulina Gonzalez</name>
+      <email>pau.gonzalezbr@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Deling på samme vilkår 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Tjek diskintegriteten</title>
+
+  <p>Efter brændingen af en cd/dvd med <app>Brasero</app>, kan du kontrollere dens integritet for at sikre, at filerne ikke er beskadiget.</p>
+
+  <steps>
+    <item>
+      <p>Vælg <guiseq><gui>Værktøjer</gui><gui>Kontrollér integritet …</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>You can select the option <gui>Use an MD5 file to check the disc</gui> if you prefer it.</p>
+	<note style="advanced">
+	<list>
+	<item><p>En MD5 (Message-Digest Algorithm 5) er en kryptografisk hashfunktion, som er meget udbredt til at kontrollere dataintegritet.</p></item>
+	<item><p>Hvis du vælger denne indstilling, så skal du finde MD5-filen ved at klikke på mappeikonet herunder.</p></item>
+	</list>
+	</note>
+    </item>
+    <item>
+      <p>Tryk på <gui>Kontrollér</gui> for at fortsætte eller <gui>Luk</gui> for at annullere det.</p>
+    </item>
+    <item>
+      <p>Når kontrollen er færdig, så kan du enten vælge <gui>Kontrollér igen</gui> eller blot <gui>Luk</gui>.</p>
+    </item>
+  </steps>
+
+</page>

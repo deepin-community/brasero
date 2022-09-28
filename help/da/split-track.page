@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="split-track" xml:lang="da">
+
+  <info>
+    <link type="guide" xref="index#tools"/>
+    <link type="seealso" xref="project-audio"/>
+    <revision version="3.2" date="2011-10-20" status="review"/>
+    <desc>Del sporet for lydprojekt i flere spor.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Deling på samme vilkår 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Del et lydspor</title>
+
+  <p>Du kan dele et enkelt lydspor i flere spor, når du laver et lydprojekt.</p>
+
+  <steps>
+    <item>
+      <p>Start et lydprojekt og tilføj de spor, du vil bruge.</p>
+    </item>
+    <item>
+      <p>Vælg det spor, du vil dele ved at klikke på det og så enten klikke på <guiseq><gui>Redigér</gui><gui>Del spor …</gui></guiseq> eller højreklikke på sporet og vælge <gui>Del spor …</gui> fra menuen.</p>
+    </item>
+    <item>
+      <p>Vælg din foretrukne metode til deling af spor:</p>
+      <terms>
+        <item>
+          <title>Del spor manuelt</title>
+          <p>Indstillingen giver dig mulighed for manuelt at vælge den præcise længde på hvert afsnit i sporet.</p>
+       </item>
+       <item>
+          <title>Del sporet i dele med en fastlagt længde</title>
+          <p>Brug metoden til at dele sporet i flere afsnit med samme længde.</p>
+        </item>
+        <item>
+          <title>Del sporet i et fast antal dele</title>
+          <p>Metoden giver dig mulighed for at dele sporet i et fast antal afsnit, hvor alle har den samme længde.</p>
+        </item>
+        <item>
+          <title>Del sporet ved hver stilhed</title>
+          <p>Vælg denne metode for at få <app>Brasero</app> til automatisk at registrere stilheder i optagelsen og dele sporet ved disse punkter.</p>
+        </item>
+      </terms>
+    </item>
+    <item>
+      <p>Fortsæt med at dele sporet ved at klikke på <gui>Opdel</gui>.</p>
+      <note>
+        <p>Hvis du prøver at dele et spor i afsnit på under 6 sekunder, så forlænges det nye afsnit til 6 sekunder.</p>
+      </note>
+    </item>
+    <item>
+      <p>Klik på <gui>OK</gui> for at bekræfte dine spordelinger og anvend ændringerne.</p>
+      <note>
+        <p>Du kan dele og sammenføje det samme spor så mange gange du vil, mens du viser del spor-dialogen. Når du bekræfter din spordeling ved at trykke på <gui>OK</gui>, så vil du ikke længere være i stand til at sammenføje de afsnit, du allerede har delt op. Tilbagefør ændringerne ved at fjerne sporets delingsafsnit fra dit projekt og tilføje sporet igen.</p>
+      </note>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="introduction" xml:lang="da">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <desc>Introduktion til diskbrændingsprogrammet <app>Brasero</app>.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Deling på samme vilkår 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Introduktion</title>
+
+  <p><app>Brasero</app> er et program til at brænde cd'er og dvd'er, som er designet til at være let at bruge samtidig med at det har alle de nødvendige værktøjer til at brænde.</p>
+
+  <p>Med <app>Brasero</app> kan du:</p>
+  <list>
+    <item><p>Brænde data til cd'er og dvd'er</p></item>
+    <item><p>Brænde lyd-cd'er fra digitale lydfiler (såsom OGG, FLAC og MP3)</p></item>
+    <item><p>Kopiere cd'er og dvd'er</p></item>
+    <item><p>Oprette video-dvd'er eller svcd'er</p></item>
+    <item><p>Oprette aftryksfiler og brænd eksisterende aftryksfiler</p></item>
+    <item><p>Slette cd-rw'er og dvd-rw'er</p></item>
+    <item><p>Kontrollere integriteten af diske og diskaftryk</p></item>
+  </list>
+
+  <figure>
+    <title>Hovedvinduet i <gui>Brasero</gui></title>
+    <media type="image" mime="image/png" src="figures/brasero-main-window.png"/>
+  </figure>
+
+</page>

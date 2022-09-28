@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="tools-check-integrity" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#tools"/>
+    <desc>Після запису диска ви можете перевірити цілісність даних на ньому.</desc>
+    <credit type="author">
+      <name>Пауліна Гонсалес (Paulina Gonzalez)</name>
+      <email>pau.gonzalezbr@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Перевірка цілісності диска</title>
+
+  <p>Після запису компакт-диска або DVD за допомогою <app>Brasero</app> ви можете перевірити цілісність даних на ньому, щоб переконатися, що файли на диску не пошкоджено.</p>
+
+  <steps>
+    <item>
+      <p>Виберіть пункт <guiseq><gui>Засоби</gui><gui>Перевірити цілісність...</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Ви можете позначити пункт <gui>Використовувати файл контрольної суми MD5 для перевірки диска</gui>, якщо хочете.</p>
+	<note style="advanced">
+	<list>
+	<item><p>MD5 (алгоритм контрольної суми повідомлення 5) — функція обчислення криптографічної хеш-суми, яку широко використовують для перевірки цілісності даних.</p></item>
+	<item><p>Якщо ви скористаєтеся цим пунктом, вам доведеться вказати файл MD5 клацанням на піктограмі теки, яку розташовано нижче.</p></item>
+	</list>
+	</note>
+    </item>
+    <item>
+      <p>Натисніть кнопку <gui>Перевірити</gui>, щоб продовжити процедуру перевірки, або кнопку <gui>Закрити</gui>, щоб скасувати її.</p>
+    </item>
+    <item>
+      <p>Коли перевірку буде завершено, ви зможете натиснути кнопку <gui>Перевірити знову</gui> або просто кнопку <gui>Закрити</gui>.</p>
+    </item>
+  </steps>
+
+</page>

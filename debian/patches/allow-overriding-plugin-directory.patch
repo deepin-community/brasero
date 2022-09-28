@@ -1,0 +1,22 @@
+From: Jeremy Bicha <jbicha@ubuntu.com>
+Date: Fri, 11 Jun 2021 17:19:37 +0100
+Subject: Allow overriding plugin install directory
+
+===================================================================
+---
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/configure.ac b/configure.ac
+index 188c011..1f7d636 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -295,7 +295,7 @@ AM_CONDITIONAL(BUILD_NAUTILUS, test x"$build_nautilus" = "xyes")
+ # Installation path for plugins
+ #
+ 
+-BRASERO_PLUGIN_DIRECTORY=${libdir}/brasero3/plugins
++BRASERO_PLUGIN_DIRECTORY=${BRASERO_PLUGIN_DIRECTORY:-'${libdir}/brasero3/plugins'}
+ AC_SUBST(BRASERO_PLUGIN_DIRECTORY)
+ 
+ dnl ****************check for libburn (optional)**************

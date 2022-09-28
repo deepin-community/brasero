@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="tools-check-integrity" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#tools"/>
+    <desc>Podeu provar la integritat d'un disc després de gravar-lo.</desc>
+    <credit type="author">
+      <name>Paulina Gonzalez</name>
+      <email>pau.gonzalezbr@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Domech</mal:name>
+      <mal:email>frandj72@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Comprovació de la integritat dels discs</title>
+
+  <p>Després de gravar un CD/DVD utilitzant el <app>Brasero</app>, podeu comprovar-ne la integritat per a assegurar-vos que els fitxers del disc no estan corromputs.</p>
+
+  <steps>
+    <item>
+      <p>Trieu <guiseq><gui>Eines</gui><gui>Comprova la integritat...</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>You can select the option <gui>Use an MD5 file to check the disc</gui> if you prefer it.</p>
+	<note style="advanced">
+	<list>
+	<item><p>Un MD5 (Message-Digest Algorithm 5) és una funció de resum criptogràfica àmpliament utilitzada per a comprovar la integritat de les dades.</p></item>
+	<item><p>Si trieu aquesta opció, haureu de trobar el fitxer MD5 fent clic a la icona de carpeta de sota.</p></item>
+	</list>
+	</note>
+    </item>
+    <item>
+      <p>Premeu <gui>Comprova</gui> per a continuar o <gui>Tanca</gui> per a cancel·lar-la.</p>
+    </item>
+    <item>
+      <p>Quan s'hagi completat la comprovació, podeu triar <gui>Comprova de nou</gui> o <gui>Tanca</gui>.</p>
+    </item>
+  </steps>
+
+</page>

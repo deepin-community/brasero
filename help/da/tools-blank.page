@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="tools-blank" xml:lang="da">
+
+  <info>
+    <link type="guide" xref="index#tools"/>
+    <desc>Slet en genskrivbar cd eller dvd ved at rydde den.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Deling på samme vilkår 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Slet en disk</title>
+
+  <p>Du kan forberede en genskrivbar disk med eksisterende data på til skrivning, ved at slette den.</p>
+
+  <steps>
+    <item>
+      <p>Vælg <guiseq><gui>Værktøjer</gui><gui>Slet …</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Hvis du har mere end et diskdrev med en genskrivbar disk i, så kan du vælge hvilken disk som skal genskrives under <gui>Vælg en disk</gui>.</p>
+    </item>
+    <item>
+      <p>Du kan vælge <gui>Hurtig sletning</gui> for at slette cd'en hurtigere.</p>
+      <note>
+        <p>Hvis du har problemer med at skrive til en disk som du har hurtigslettet, så prøv at deaktivere hurtigsletning og slet den igen.</p>
+      </note>
+    </item>
+    <item>
+      <p>Klik på <gui>Slet</gui> for at fortsætte.</p>
+    </item>
+    <item>
+      <p>Disken skubbes muligvis ud når sletningen er færdig.</p>
+    </item>
+  </steps>
+
+</page>

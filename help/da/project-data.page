@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-data" xml:lang="da">
+
+  <info>
+    <link type="guide" xref="index#new-project"/>
+    <desc>Skriv data til en cd eller dvd.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Deling på samme vilkår 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Opret et dataprojekt</title>
+
+  <p>Et dataprojekt bruges til at skrive data (f.eks. filer, billeder eller musik) til en disk uden at ændre filerne på nogen måde. Det kan være nyttigt til overførsel af filer mellem computere.</p>
+
+  <steps>
+    <item>
+      <p>Klik på <gui>Dataprojekt</gui> på startsiden, eller vælg <guiseq><gui>Projekt</gui><gui>Nyt projekt</gui><gui>Nyt dataprojekt</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Tilføj de ønskede filer til projektet ved at klikke på <gui>Tilføj</gui> i værktøjslinjen og vælge filerne. Du kan også tilføje filer ved at trække og slippe dem i projektområdet eller ved at klikke på <guiseq><gui>Redigér</gui><gui>Tilføj filer</gui></guiseq>.</p>
+      <note style="tip">
+	<p>Du kan oprette mapper på cd'en til at gemme dine data i på en mere struktureret måde. Opret en mappe ved at klikke på <gui>Ny mappe</gui> i værktøjslinjen og vælg <guiseq><gui>Redigér</gui><gui>Ny mappe</gui></guiseq> fra menulinjen. Du kan også oprette mapper inden i andre mapper.</p>
+      </note>
+    </item>
+    <item>
+      <p>Du kan tilføje en titel til disken i tekstindtastningsfeltet under projektområdet.</p>
+    </item>
+    <item>
+      <p>Vælg den tomme disk i rullegardinslisten.</p>
+    </item>
+    <item>
+      <p>Klik på <gui>Brænd …</gui> for at fortsætte.</p>
+    </item>
+    <item>
+      <p>Vælg <gui>Brændingshastighed</gui> fra rullegardinslisten og andre indstillinger, du vil have.</p>
+    </item>
+    <item>
+      <p>Klik på <gui>Brænd</gui> for at brænde en enkelt cd af projektet eller <gui>Brænd adskillige kopier</gui> for at brænde dit projekt på flere cd'er</p>
+      <note>
+        <p>Hvis du bruger en genskrivbar disk som allerede indeholder data, så vil du blive spurgt om du vil slette den eller indsætte en anden disk.</p>
+      </note>
+    </item>
+  </steps>
+
+  <p>Hvis du bruger en genskrivbar disk og dataene ikke brændes korrekt, så kan det være nødvendigt at foretage en fuld (ikke hurtig) sletning af disken inden du prøver igen.</p>
+
+</page>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="tools-blank" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#tools"/>
+    <desc>Витирання перезаписуваного компакт-диска або DVD для отримання порожнього диска.</desc>
+    <credit type="author">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Очищення диска</title>
+
+  <p>Ви можете приготувати перезаписуваний диск із наявними даними для запису попереднім його витиранням.</p>
+
+  <steps>
+    <item>
+      <p>Виберіть пункт меню <guiseq><gui>Засоби</gui><gui>Очистити...</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Якщо на комп'ютері встановлено декілька пристроїв для роботи з дисками із вставленими перезаписуваними дисками, ви можете вибрати, який з дисків слід перезаписати, за допомогою пункту <gui>Виберіть диск</gui>.</p>
+    </item>
+    <item>
+      <p>Ви можете вибрати варіант <gui>Швидке очищення</gui>, щоб очистити диск швидше.</p>
+      <note>
+        <p>Якщо у вас виникають проблеми із записом на диск, який було витерто у швидкому режимі, спробуйте вимкнути швидке витирання і повторити витирання диска.</p>
+      </note>
+    </item>
+    <item>
+      <p>Натисніть кнопку <gui>Очистити</gui>.</p>
+    </item>
+    <item>
+      <p>Після завершення витирання диск може бути виштовхнуто з лотка.</p>
+    </item>
+  </steps>
+
+</page>

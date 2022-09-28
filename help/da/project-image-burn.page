@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-image-burn" xml:lang="da">
+
+  <info>
+    <link type="guide" xref="index#new-project"/>
+    <link type="seealso" xref="project-audio"/>
+    <link type="seealso" xref="project-disc-copy"/>
+    <link type="seealso" xref="project-video"/>
+    <revision version="3.3" date="2011-10-14" status="review"/>
+    <desc>Brænd et eksisterende diskaftryk til en cd eller dvd.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Deling på samme vilkår 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Brænd aftryk</title>
+
+  <p><app>Brasero</app> giver dig mulighed for at brænde diskaftryk til en cd eller dvd. Den understøtter følgende endelser for optiske diskaftryk: <file>.iso</file>, <file>.toc</file> og <file>.cue</file>.</p>
+
+  <note style="advanced">
+    <p>Diskaftryk er arkivfiler som indeholder al den data som er på en cd eller dvd. Der kan kun være ét diskaftryk på en cd ad gangen, men hvert arkiv kan indeholde så lidt eller så meget data som du ønsker, så længe den passer til disken.</p>
+  </note>
+
+  <p>Brænd et diskaftryk til en cd eller dvd med følgende trin:</p>
+  <steps>
+    <item>
+      <p>Klik på <gui>Brænd aftryk</gui> på startsiden og vælg <guiseq><gui>Projekt</gui><gui>Nyt projekt</gui><gui>Brænd aftryk …</gui> </guiseq>.</p>
+    </item>
+    <item>
+      <p>Vælg et diskaftryk som skal skrives ved at klikke på <gui>Klik her for at vælge et diskaftryk</gui>.</p>
+    </item>
+    <item>
+      <p>Vælg den disk du vil bruge fra rullegardinslisten under <gui>Vælg et drev at skrive til</gui>. Hvis du har mere end ét diskdrev, så bør alle de diske som sidder i dem blive vist.</p>
+        <note><p>Når disken er blevet valgt viser <app>Brasero</app> hvor meget ledig plads, der vil være tilbage på disk efter brænding.</p></note>
+    </item>
+    <item>
+      <p>Klik på <gui>Egenskaber</gui>-knappen for at vælge brændingshastighed og andre tilpassede indstillinger.</p>
+    </item>
+    <item>
+      <p>Klik på <gui>Brænd</gui> for at starte brændingen af aftrykket. Efter handlingen kan du enten færdiggøre brændingen eller lave den anden kopi af aftrykket.</p>
+        <note>
+          <p>Hvis du bruger en genskrivbar disk, som allerede indeholder data, så bliver du spurgt om du vil slette den eller indsætte en anden disk.</p>
+        </note>
+    </item>
+    <!-- There are some problems with multiple burn. After burning one copy,
+    Brasero asks for manual ejecting and then often doesn't detect it. The same
+    problem appears by putting inside new CD or DVD - Brasero doesn't always
+    detect it. Besides the multiple burn option has the same functionality as
+    Burn - they both allow to burn one or several copies, so one option would be
+    enough.-->
+
+  </steps>
+
+</page>

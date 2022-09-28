@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-save" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#tools"/>
+    <link type="seealso" xref="project-audio"/>
+    <link type="seealso" xref="project-video"/>
+    <link type="seealso" xref="project-data"/>
+    <desc>Desament d'un projecte per a l'edició o l'enregistrament posterior.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Domech</mal:name>
+      <mal:email>frandj72@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Desat d'un projecte</title>
+
+  <p>Podeu desar un projecte d'àudio, de dades o de vídeo al <app>Brasero</app> per a una edició o gravació posterior.</p>
+
+  <steps>
+    <item>
+      <p>Creeu el projecte i afegiu els fitxers que voleu utilitzar al projecte.</p>
+    </item>
+    <item>
+      <p>Feu clic a <guiseq><gui>Projecte</gui><gui>Desa</gui></guiseq> per a desar el projecte.</p>
+    </item>
+    <item>
+      <p>Introduïu el nom amb el qual voleu desar el projecte i feu clic a <gui>Desa</gui> per a desar el projecte.</p>
+    </item>
+  </steps>
+
+  <p>Hi ha una sèrie de mètodes que es poden utilitzar per a obrir un projecte desat del <app>Brasero</app>:</p>
+
+  <list>
+    <item>
+      <p>seleccionant-lo a la llista de la pàgina d'inici, a <gui>Projectes recents</gui>;</p>
+    </item>
+    <item>
+      <p>fent clic a <guiseq><gui>Projecte</gui><gui>Projectes recents</gui></guiseq>;</p>
+    </item>
+    <item>
+      <p>fent clic a <guiseq><gui>Projecte</gui><gui>Obre</gui></guiseq> i seleccionant el projecte, i</p>
+    </item>
+    <item>
+      <p>obrint el projecte des d'un navegador de fitxers</p>
+      <note>
+        <p>Només es pot obrir una instància del <app>Brasero</app> alhora. Si intenteu obrir una segona instància, se seleccionarà la finestra oberta actual del <app>Brasero</app>.</p>
+        <p>Si el <app>Brasero</app> ja s'està executant i hi intenteu obrir alguns fitxers des del <app>Fitxers</app>, els fitxers s'afegiran al projecte en el qual esteu treballant actualment.</p>
+      </note>
+    </item>
+  </list>
+
+  <note>
+    <p>Si obriu un projecte desat, el <app>Brasero</app> el tractarà com un projecte nou: si voleu desar una versió actualitzada del projecte, us demanarà que hi introduïu un nom; en aquest punt, podeu sobreescriure la versió antiga o desar-la com un projecte nou introduint un nom de fitxer diferent.</p>
+  </note>
+
+</page>

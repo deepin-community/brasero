@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-data" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#new-project"/>
+    <desc>Skriv data till en cd eller dvd.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons DelaLika 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2008, 2009, 2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Skapa ett dataprojekt</title>
+
+  <p>Ett dataprojekt används för att skriva data (till exempel filer, foton eller musik) till en skiva, utan att ändra dessa filer på något sätt. Detta kan vara användbart för att överföra filer mellan datorer.</p>
+
+  <steps>
+    <item>
+      <p>Klicka på <gui>Dataprojekt</gui> på startsidan eller välj <guiseq><gui>Projekt</gui><gui>Nytt projekt</gui><gui>Nytt dataprojekt</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Lägg till de önskade filerna till projektet genom att klicka <gui>Lägg till</gui> i verktygsfältet och välja filerna. Du kan också lägga till filer genom att dra och släppa dem till projektområdet eller genom att klicka <guiseq><gui>Redigera</gui><gui>Lägg till filer</gui></guiseq>.</p>
+      <note style="tip">
+	<p>Du kan skapa mappar på cd-skivan för att lagra dina data på ett mer strukturerat sätt. För att skapa en mapp, klicka <gui>Ny mapp</gui> i verktygsfältet eller välj <guiseq><gui>Redigera</gui><gui>Ny mapp</gui></guiseq> från menyraden. Du kan också skapa mappar inuti andra mappar.</p>
+      </note>
+    </item>
+    <item>
+      <p>Du kan lägga till en titel för skivan i textinmatningsfältet nedanför projektområdet.</p>
+    </item>
+    <item>
+      <p>Välj den tomma skivan i rullgardinslistan.</p>
+    </item>
+    <item>
+      <p>Klicka <gui>Bränn…</gui> för att fortsätta.</p>
+    </item>
+    <item>
+      <p>Välj <gui>Brännhastighet</gui>en från rullgardinslistan tillsammans med alla andra alternativ som du vill ha.</p>
+    </item>
+    <item>
+      <p>Klicka på <gui>Bränn</gui> för att bränna en enstaka cd-skiva med projektet eller <gui>Bränn flera kopior</gui> för att bränna ditt projekt till flera cd-skivor</p>
+      <note>
+        <p>Om du använder en återskrivningsbar skiva som redan innehåller data kommer du tillfrågas om du vill radera den eller mata in en annan skiva.</p>
+      </note>
+    </item>
+  </steps>
+
+  <p>Om du använder en återskrivningsbar skiva och data inte bränns till den korrekt kan du behöva göra en fullständig (ej snabb) radering av skivan innan du försöker igen.</p>
+
+</page>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-disc-copy" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#new-project"/>
+    <desc>Створення ідентичної копії диска.</desc>
+    <credit type="author">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Копіювати диск</title>
+
+  <steps>
+    <item>
+      <p>Натисніть пункт <gui>Копіювати диск</gui> на початковій сторінці або виберіть у меню пункт <guiseq><gui>Проєкт</gui><gui>Створити проєкт</gui><gui>Копіювати диск...</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Виберіть диск, який ви хочете скопіювати, зі спадного списку під пунктом <gui>Виберіть диск для копіювання</gui>. Якщо на вашому комп'ютері встановлено декілька пристроїв для запису дисків, у списку буде показано усі диски у цих пристроях.</p>
+    </item>
+    <item>
+      <p>Виберіть, хочете ви створити копію на іншому диску чи створити образ для подальшого використання.</p>
+    </item>
+    <item>
+      <p>Натисніть кнопку <gui>Властивості</gui>, щоб вибрати швидкість запису та інші нетипові параметри.</p>
+    </item>
+    <item>
+      <p>Натисніть кнопку <gui>Копіювати</gui>, щоб розпочати копіювання диска, або <gui>Створити кілька копій</gui>, якщо ви плануєте створити декілька копій диска.</p>
+      <note>
+	<p>Якщо ви копіюєте диск на комп'ютері із одним пристроєм для роботи з дисками, програма попросить вас замінити диск, який ви копіюєте, на записуваний носій після того, як дані з копійованого диска буде тимчасово переписано на основний жорсткий диск комп'ютера.</p>
+      </note>
+    </item>
+  </steps>
+
+</page>

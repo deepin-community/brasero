@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-audio" xml:lang="da">
+
+  <info>
+    <link type="guide" xref="index#new-project"/>
+    <desc>Opret et lydprojekt.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Deling på samme vilkår 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Skriv en musik-cd</title>
+
+  <p><app>Brasero</app> kan skrive lydfiler til en cd, som du så kan afspille i en cd-afspiller osv. Det er normalt bedst at bruge en cd, som ikke er genskrivbar da nogle cd-afspillere ikke kan afspille genskrivbare cd'er.</p>
+
+  <steps>
+    <item>
+      <p>Klik på <gui>Lydprojekt</gui> på startsiden, eller vælg <guiseq><gui>Projekt</gui><gui>Nyt projekt</gui><gui>Nyt lydprojekt</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Tilføj lydfiler til projektet ved at klikke på <gui>Tilføj</gui> i værktøjslinjen og vælge de ønskede filer. Du kan også tilføje filer ved at trække og slippe dem i projektområdet eller ved at klikke på <guiseq><gui>Redigér</gui><gui>Tilføj filer</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Du kan tilføje en titel til cd'en i tekstindtastningsfeltet under projektområdet.</p>
+    </item>
+    <item>
+      <p>Vælg den tomme cd i rullegardinslisten.</p>
+    </item>
+    <item>
+      <p>Klik på <gui>Brænd …</gui> for at fortsætte.</p>
+    </item>
+    <item>
+      <p>Vælg <gui>Brændingshastighed</gui> fra rullegardinslisten og andre indstillinger, du vil have.</p>
+    </item>
+    <item>
+      <p>Klik på <gui>Brænd</gui> for at brænde en enkelt disk med projektet eller <gui>Brænd adskillige kopier</gui> for at brænde dit projekt til flere diske.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>Du kan også dele enkelte spor i flere spor med <gui>Del</gui>-værktøjet og tilføje to sekunders stilhed mellem hvert spor med <gui>Pause</gui>-knappen.</p>
+  </note>
+
+</page>

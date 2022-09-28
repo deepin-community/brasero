@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-disc-copy" xml:lang="da">
+
+  <info>
+    <link type="guide" xref="index#new-project"/>
+    <desc>Opret en identisk kopi af en disk.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Deling på samme vilkår 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Kopiér disk</title>
+
+  <steps>
+    <item>
+      <p>Klik på <gui>Diskkopiering</gui> på startsiden eller vælg <guiseq><gui>Projekt</gui><gui>Nyt projekt</gui><gui>Kopiér disk … </gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Vælg den disk du vil kopiere fra rullegardinslisten under <gui>Vælg disk til kopiering</gui>. Hvis du har mere end ét diskdrev, så bør alle de diske som sidder i dem blive vist.</p>
+    </item>
+    <item>
+      <p>Vælg om du vil lave en kopi til en anden disk eller oprette et aftryk til senere brug.</p>
+    </item>
+    <item>
+      <p>Klik på <gui>Egenskaber</gui>-knappen for at vælge brændingshastighed og andre tilpassede indstillinger.</p>
+    </item>
+    <item>
+      <p>Klik på <gui>Kopiér</gui> for at starte kopieringen af disk, eller <gui>Lav adskillige kopier</gui>, hvis du har planer om at lave mere end en kopi af disken.</p>
+      <note>
+	<p>Hvis du kopiere disken og kun har ét diskdrev, så vil du få besked på at erstatte den disk du kopiere med en genskrivbar en, efter indholdet er blevet kopieret midlertidigt til din harddisk.</p>
+      </note>
+    </item>
+  </steps>
+
+</page>

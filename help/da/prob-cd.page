@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="prob-cd" xml:lang="da">
+
+  <info>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="project-audio"/>
+    <link type="seealso" xref="tools-blank"/>
+    <desc>Mine MP3'er vil ikke afspille i en dvd- eller cd-afspiller.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Deling på samme vilkår 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Cd vil ikke afspille i en cd-afspiller</title>
+
+  <p>Hvis din cd ikke kan afspilles i din cd-afspiller eller stereoanlæg, så er det formodentligt fordi musikken ikke blev skrevet korrekt på disken eller fordi du brugte et dataprojekt til at skrive musikken til cd'en frem for et lydprojekt.</p>
+
+  <note>
+    <p>Mange nye cd- og dvd-afspillere kan afspille musik-cd'er, som blev oprettet med et dataprojekt, men de fleste ældre afspillere kan ikke.</p>
+  </note>
+
+  <note>
+    <p>Ældre cd-afspillere kan måske ikke afspille cd-rw'er.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p>Hvis du bruger en cd-rw, så slet cd'en.</p>
+    </item>
+    <item>
+      <p>Genskriv cd'en som et lydprojekt.</p>
+    </item>
+  </steps>
+
+</page>

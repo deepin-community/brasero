@@ -1,0 +1,48 @@
+From: Andreas Henriksson <andreas@fatal.se>
+Date: Sat, 7 Sep 2019 17:53:18 +0200
+Subject: Stop referencing empty Object Hierarchy
+
+Newer versions of gtk-doc apparently now only create the
+tree_index.sgml file if it's not empty.
+
+The brasero one seems to have been empty for a while atleast, see eg.
+https://developer.gnome.org/libbrasero-media/3.12/object-tree.html
+
+This fixes build with gtk-doc-tools 1.32
+
+Closes: #939591
+---
+ docs/reference/libbrasero-burn/libbrasero-burn-docs.sgml   | 4 ----
+ docs/reference/libbrasero-media/libbrasero-media-docs.sgml | 4 ----
+ 2 files changed, 8 deletions(-)
+
+diff --git a/docs/reference/libbrasero-burn/libbrasero-burn-docs.sgml b/docs/reference/libbrasero-burn/libbrasero-burn-docs.sgml
+index 612491f..873a549 100644
+--- a/docs/reference/libbrasero-burn/libbrasero-burn-docs.sgml
++++ b/docs/reference/libbrasero-burn/libbrasero-burn-docs.sgml
+@@ -39,10 +39,6 @@
+     <xi:include href="xml/brasero-blank-dialog.xml"/>
+ 
+ 
+-  </chapter>
+-  <chapter id="object-tree">
+-    <title>Object Hierarchy</title>
+-     <xi:include href="xml/tree_index.sgml"/>
+   </chapter>
+   <index id="api-index-full">
+     <title>API Index</title>
+diff --git a/docs/reference/libbrasero-media/libbrasero-media-docs.sgml b/docs/reference/libbrasero-media/libbrasero-media-docs.sgml
+index c7ec48c..a89de72 100644
+--- a/docs/reference/libbrasero-media/libbrasero-media-docs.sgml
++++ b/docs/reference/libbrasero-media/libbrasero-media-docs.sgml
+@@ -24,10 +24,6 @@
+     <xi:include href="xml/brasero-drive-selection.xml"/>
+ 
+   </chapter>
+-  <chapter id="object-tree">
+-    <title>Object Hierarchy</title>
+-     <xi:include href="xml/tree_index.sgml"/>
+-  </chapter>
+   <index id="api-index-full">
+     <title>API Index</title>
+     <xi:include href="xml/api-index-full.xml"><xi:fallback /></xi:include>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="prob-cd" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="project-audio"/>
+    <link type="seealso" xref="tools-blank"/>
+    <desc>Els meus MP3 no es reprodueixen en un reproductor de DVD o CD.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Domech</mal:name>
+      <mal:email>frandj72@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>El CD no es reprodueix en un reproductor de CD</title>
+
+  <p>Si el vostre CD no s'està reproduint al vostre reproductor de CD o equip de música, és probablement perquè la música no s'ha escrit correctament al disc o perquè heu utilitzat un projecte de dades per a escriure la música al CD en lloc d'un projecte d'àudio.</p>
+
+  <note>
+    <p>Molts reproductors de CD i DVD nous reprodueixen CD de música creats amb un projecte de dades, però la majoria dels reproductors més antics no ho fan.</p>
+  </note>
+
+  <note>
+    <p>És possible que els reproductors de CD més antics no puguin reproduir CD-RW.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p>Si esteu utilitzant un CD-RW, esborreu el CD.</p>
+    </item>
+    <item>
+      <p>Reescriure el CD com un projecte d'àudio.</p>
+    </item>
+  </steps>
+
+</page>

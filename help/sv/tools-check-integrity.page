@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="tools-check-integrity" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#tools"/>
+    <desc>Du kan testa en skivas integritet efter att ha bränt den.</desc>
+    <credit type="author">
+      <name>Paulina Gonzalez</name>
+      <email>pau.gonzalezbr@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons DelaLika 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2008, 2009, 2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Kontrollera skivintegritet</title>
+
+  <p>Efter att ha bränt en cd/dvd med <app>Brasero</app> kan du kontrollera dess integritet för att säkerställa att filerna på skivan inte är felaktiga.</p>
+
+  <steps>
+    <item>
+      <p>Välj <guiseq><gui>Verktyg</gui><gui>Kontrollera integritet…</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Du kan välja alternativet <gui>Använd en md5-fil för att kontrollera skivan</gui> om du föredrar det.</p>
+	<note style="advanced">
+	<list>
+	<item><p>En MD5 (Message-Digest Algorithm 5) är en kryptografisk hash-funktion ofta använd för att kontrollera dataintegritet.</p></item>
+	<item><p>Om du väljer detta alternativ kommer du behöva hitta MD5-filen genom att klicka på mappikonen placerad nedan.</p></item>
+	</list>
+	</note>
+    </item>
+    <item>
+      <p>Tryck <gui>Kontrollera</gui> för att fortsätta eller <gui>Stäng</gui> för att avbryta det.</p>
+    </item>
+    <item>
+      <p>Då kontrollen är klar kan du antingen välja att <gui>Kontrollera igen</gui> eller helt enkelt klicka <gui>Stäng</gui>.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-disc-copy" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#new-project"/>
+    <desc>Creació d'una còpia idèntica d'un disc.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Domech</mal:name>
+      <mal:email>frandj72@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Còpia d'un disc</title>
+
+  <steps>
+    <item>
+      <p>Feu clic a <gui>Copia un disc</gui> a la finestra principal o trieu <guiseq><gui>Projecte</gui><gui>Projecte nou</gui><gui>Copia un disc... </gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Seleccioneu el disc que voleu copiar a la llista desplegable sota <gui>Seleccioneu el disc a copiar</gui>. Si teniu més d'una unitat de disc, tots els discos que hi ha actualment haurien de ser a la llista.</p>
+    </item>
+    <item>
+      <p>Trieu si voleu fer una còpia en un altre disc o crear una imatge per a un ús posterior.</p>
+    </item>
+    <item>
+      <p>Feu clic al botó <gui>Propietats</gui> per a seleccionar la velocitat de gravació i altres opcions personalitzades.</p>
+    </item>
+    <item>
+      <p>Feu clic a <gui>Copia</gui> per a començar a copiar el disc o a <gui>Fes diverses còpies</gui> si voleu fer més d'una còpia del disc.</p>
+      <note>
+	<p>Si copieu el disc i només teniu una unitat de disc, se us demanarà que reemplaceu el disc que esteu copiant amb un d'escrivible després que el contingut es copiï temporalment al disc dur.</p>
+      </note>
+    </item>
+  </steps>
+
+</page>

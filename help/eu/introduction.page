@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="introduction" xml:lang="eu">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <desc>Introduction to the <app>Brasero</app> disc burning application.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Sarrera</title>
+
+  <p><app>Brasero</app> is an application for burning CDs and DVDs, designed to
+  be easy to use, while providing all the tools necessary for burning.</p>
+
+  <p><app>Brasero</app> aplikazioarekin honakoak egin daitezke:</p>
+  <list>
+    <item><p>Datuak CD eta DVDetan grabatu</p></item>
+    <item><p>Burn audio CDs from digital audio files (such as OGG, FLAC and
+    MP3)</p></item>
+    <item><p>CD eta DVDak kopiatu</p></item>
+    <item><p>Bideoko DVDak edo SVCDak sortu</p></item>
+    <item><p>Irudi-fitxategiak sortzea eta dauden irudi-fitxategiak grabatzea</p></item>
+    <item><p>CD-RWs eta DVD-RWak ezabatu</p></item>
+    <item><p>Diskoen eta disko-irudien osotasuna egiaztatu</p></item>
+  </list>
+
+  <figure>
+    <title><gui>Brasero</gui> aplikazioaren leiho nagusia</title>
+    <media type="image" mime="image/png" src="figures/brasero-main-window.png"/>
+  </figure>
+
+</page>

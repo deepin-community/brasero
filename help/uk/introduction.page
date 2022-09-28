@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="introduction" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <desc>Вступ до програми із запису диску <app>Brasero</app>.</desc>
+    <credit type="author">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Вступ</title>
+
+  <p><app>Brasero</app> — програма для запису компакт-дисків і DVDs, яку розроблено простою у користуванні із одночасним забезпеченням усіх засобів, які потрібні для запису.</p>
+
+  <p>За допомогою <app>Brasero</app> ви можете виконувати такі дії:</p>
+  <list>
+    <item><p>Записувати дані на компакт-диски і DVD</p></item>
+    <item><p>Записувати звукові компакт-диски на основі файлів цифрових звукових даних (зокрема OGG, FLAC і MP3)</p></item>
+    <item><p>Копіювати компакт-диски і DVD</p></item>
+    <item><p>Створювати DVD з відео або SVCD</p></item>
+    <item><p>Створювати файли образів та записувати наявні файли образів</p></item>
+    <item><p>Витирати CD-RW та DVD-RW</p></item>
+    <item><p>Перевіряти цілісність дисків та образів дисків</p></item>
+  </list>
+
+  <figure>
+    <title>Головне вікно <gui>Brasero</gui></title>
+    <media type="image" mime="image/png" src="figures/brasero-main-window.png"/>
+  </figure>
+
+</page>

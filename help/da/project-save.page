@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-save" xml:lang="da">
+
+  <info>
+    <link type="guide" xref="index#tools"/>
+    <link type="seealso" xref="project-audio"/>
+    <link type="seealso" xref="project-video"/>
+    <link type="seealso" xref="project-data"/>
+    <desc>Gem et projekt til senere redigering eller brænding.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Deling på samme vilkår 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Gem et projekt</title>
+
+  <p>Du kan gemme et lyd-, data- eller videoprojekt i <app>Brasero</app> til senere redigering eller brænding.</p>
+
+  <steps>
+    <item>
+      <p>Opret projektet og tilføj de filer, du vil bruge til projektet.</p>
+    </item>
+    <item>
+      <p>Klik på <guiseq><gui>Projekt</gui><gui>Gem</gui></guiseq> for at gemme projektet.</p>
+    </item>
+    <item>
+      <p>Indtast det navn, du vil bruge til at gemme projektet under, og klik på <gui>Gem</gui> for at gemme projektet.</p>
+    </item>
+  </steps>
+
+  <p>Der er flere måder som kan bruges til at åbne et gemt <app>Brasero</app>-projekt:</p>
+
+  <list>
+    <item>
+      <p>vælge det fra listen på startsiden under <gui>Nylige projekter</gui></p>
+    </item>
+    <item>
+      <p>klikke på <guiseq><gui>Projekt</gui><gui>Nylige projekter</gui></guiseq></p>
+    </item>
+    <item>
+      <p>klikke på <guiseq><gui>Projekt</gui><gui>Åbn</gui></guiseq> og vælge projektet</p>
+    </item>
+    <item>
+      <p>åbne projektet fra en filvælger</p>
+      <note>
+        <p>Der kan kun være én åben instans af <app>Brasero</app>. Hvis du prøver at åbne en anden instans, så gives der fokus til det <app>Brasero</app>-vindue, som er åbent.</p>
+        <p>Hvis <app>Brasero</app> allerede kører og du prøver at åbne filer med det fra <app>Filer</app>, så tilføjes filerne til det projekt, du arbejder på i øjeblikket.</p>
+      </note>
+    </item>
+  </list>
+
+  <note>
+    <p>Hvis du åbner et gemt projekt, så vil <app>Brasero</app> behandle det som et nyt projekt: hvis du vil gemme en opdateret version af projektet, så vil den spørge om at indtaste et navn til det, hvor du har mulighed for at overskrive den gamle version eller gemme den som et nyt projekt ved at indtaste et andet filnavn.</p>
+  </note>
+
+</page>

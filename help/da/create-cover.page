@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="create-cover" xml:lang="da">
+
+  <info>
+    <link type="guide" xref="index#tools"/>
+    <desc>Opret et indlæg til en jewel case.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Deling på samme vilkår 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Opret et omslag</title>
+
+  <p>Du kan bruge <app>Brasero</app> til at oprette indlæg til dine jewel cases. Tilgå opretteren ved at klikke på <guiseq><gui>Værktøjer</gui> <gui>Omslagsredigering</gui></guiseq>.</p>
+
+  <note style="tip">
+    <p>Hvis du er ved at oprette et lydprojekt og bliver færdig med at sammensætte projektet inden der er blevet oprettet et omslag, så vises sporene automatisk bag på omslaget, når du tilgår <gui>Omslagsredigering</gui>-brugerfladen.</p>
+  </note>
+
+  <note style="important">
+    <p>Hvis du lukker <gui>Omslagsredigeringen</gui>, mistes dine ændringer.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p>Åbn <gui>Omslagsredigeringen</gui>.</p>
+    </item>
+    <item>
+      <p>Vælg formatering til teksten og skriv. Du kan derefter rulle ned for at se indlægget til siden og bagsiden for jewel case'en.</p>
+      <note style="tip">
+        <p>Første gang du ser <gui>Omslagsredigering</gui>-dialogen, vil du ikke være i stand til at klikke på tekstformateringsindstillingerne. Klik på det omslag, du vil arbejde på, for at kunne bruge dem.</p>
+      </note>
+    </item>
+    <item>
+      <p>Klik på <gui>Egenskaber for baggrund</gui>-værktøjsikonet for at tilføje en baggrund til det nuværende omslag, eller højreklik på det omslag du vil redigere og vælg <gui>Angiv egenskaber for baggrund</gui>. Du kan vælge at bruge en farvet baggrund eller et baggrundsbillede.</p>
+      <note style="bug">
+        <p>Hvis du vælger et centreret baggrundsbillede, så bryder <app>Brasero</app> nogle gange ned når du klikker på <gui>Luk</gui>-knappen.</p>
+      </note>
+      <p>Klik på <gui>Luk</gui>-knappen for at anvende ændringerne og luk <gui>Egenskaber for baggrund</gui>-dialogen.</p>
+    </item>
+    <item>
+      <p>Udskriv omslaget med <gui>Udskriv</gui>-knappen, som findes i øverste højre hjørne af dialogen.</p>
+    </item>
+  </steps>
+
+</page>

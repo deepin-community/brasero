@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-audio" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#new-project"/>
+    <desc>Creació d'un projecte d'àudio.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Domech</mal:name>
+      <mal:email>frandj72@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Escriure un CD de música</title>
+
+  <p>El <app>Brasero</app> pot escriure fitxers d'àudio en un CD, que després podeu reproduir en reproductors de CD i altres. Sol ser millor utilitzar un CD no reenregistrable perquè no tots els reproductors de CD reprodueixen CD reenregistrables.</p>
+
+  <steps>
+    <item>
+      <p>Feu clic a <gui>Projecte d'àudio</gui> a la finestra principal o trieu <guiseq><gui>Projecte</gui><gui>Projecte nou</gui><gui>Projecte d'àudio nou</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Afegiu fitxers d'àudio al projecte fent clic a <gui>Afegeix fitxers al projecte</gui> a la barra d'eines i seleccioneu els fitxers desitjats. També podeu afegir fitxers arrossegant-los i deixant-los anar a l'àrea del projecte o fent clic a <guiseq><gui>Edita</gui><gui>Afegeix fitxers</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Podeu afegir un títol per al CD al camp d'entrada de text sota de l'àrea del projecte.</p>
+    </item>
+    <item>
+      <p>Seleccioneu el CD en blanc de la llista desplegable.</p>
+    </item>
+    <item>
+      <p>Feu clic a <gui>Enregistra...</gui> per a continuar.</p>
+    </item>
+    <item>
+      <p>Trieu la <gui>Velocitat d'enregistrament</gui> des de la llista desplegable i qualsevol altra opció que vulgueu canviar.</p>
+    </item>
+    <item>
+      <p>Feu clic a <gui>Enregistra</gui> per a gravar un sol disc del projecte o <gui>Enregistra diverses còpies</gui> per a gravar el projecte en múltiples discs.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>També podeu dividir pistes individuals en múltiples pistes utilitzant l'eina de <gui>partició</gui> i afegir una pausa de dos segons després d'una pista utilitzant el botó de <gui>pausa</gui>.</p>
+  </note>
+
+</page>

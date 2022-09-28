@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Current version is crashing for me when I click "Burn" -->
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-video" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#new-project"/>
+    <title type="sort">3</title>
+    <desc>Запис відео на DVD або SVCD.</desc>
+    <credit type="author">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Створити відеопроєкт</title>
+
+  <p><app>Brasero</app> можна скористатися для створення відеодисків для відтворення на програвачі DVD або ноутбуку.</p>
+
+  <steps>
+    <item>
+      <p>Натисніть пункт <gui>Відеодиск</gui> на початковій сторінці або виберіть пункт меню <guiseq><gui>Проєкт</gui><gui>Створити проєкт</gui><gui>Відеодиск</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Додайте бажані файли відео до проєкту натисканням кнопки <gui>Додати</gui> на панелі інструментів із наступним вибором файлів. Ви також можете додати файли перетягуванням зі скиданням їх на панель проєкту або вибором пункту меню <guiseq><gui>Зміни</gui><gui>Додати файли</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Ви можете додати заголовок для диску у полі для введення тексту під панеллю проєкту.</p>
+    </item>
+    <item>
+      <p>Виберіть порожній диск зі спадного списку.</p>
+    </item>
+    <item>
+      <p>Натисніть кнопку <gui>Записати...</gui>, щоб продовжити.</p>
+    </item>
+    <item>
+      <p>Виберіть <gui>Швидкість запису</gui> зі спадного списку і вкажіть будь-які інші потрібні вам параметри.</p>
+    </item>
+    <item>
+      <p>Натисніть кнопку <gui>Записати</gui>, щоб записати один диск на основі проєкту, або <gui>Записати декілька копій</gui>, щоб записати ваш проєкт на декілька дисків.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-image-burn" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#new-project"/>
+    <link type="seealso" xref="project-audio"/>
+    <link type="seealso" xref="project-disc-copy"/>
+    <link type="seealso" xref="project-video"/>
+    <revision version="3.3" date="2011-10-14" status="review"/>
+    <desc>Запис наявного образу диска на компакт-диск або DVD.</desc>
+    <credit type="author">
+      <name>Марта Богданович</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Записати образ</title>
+
+  <p>За допомогою <app>Brasero</app> ви можете записувати образи дисків на компакт-диски або DVD. У програмі передбачено підтримку файлів образів оптичних дисків із такими суфіксами назв: <file>.iso</file>, <file>.toc</file> і <file>.cue</file>.</p>
+
+  <note style="advanced">
+    <p>Образи дисків є файлами архівів, які містять усі дані, які зберігалися на компакт-диску або DVD. На диск одночасно можна записати лише один образ диска, але будь-який архів-образ може містити довільний об'єм даних, якщо тільки усі ці дані можуть вміститися на оптичний диск.</p>
+  </note>
+
+  <p>Щоб записати образ диска на компакт-диск або DVD, виконайте таку послідовність дій:</p>
+  <steps>
+    <item>
+      <p>Натисніть пункт <gui>Записати образ</gui> на початковій сторінці або виберіть пункт меню <guiseq><gui>Проєкт</gui><gui>Створити проєкт</gui><gui>Записати образ…</gui> </guiseq>.</p>
+    </item>
+    <item>
+      <p>Виберіть образ диска, який слід записати, натисканням пункту <gui>Натисніть, щоб вибрати образ диска</gui>.</p>
+    </item>
+    <item>
+      <p>Виберіть диск, яким ви хочете скористатися, зі спадного списку під пунктом <gui>Виберіть диск для запису</gui>. Якщо на вашому комп'ютері встановлено декілька пристроїв для запису дисків, у списку буде показано усі диски у цих пристроях.</p>
+        <note><p>Після вибору диска <app>Brasero</app> покаже, скільки вільного місця лишиться на диску після записування.</p></note>
+    </item>
+    <item>
+      <p>Натисніть кнопку <gui>Властивості</gui>, щоб вибрати швидкість запису та інші нетипові параметри.</p>
+    </item>
+    <item>
+      <p>Натисніть кнопку <gui>Записати</gui>, щоб розпочати запис образу. Після завершення запису ви можете або завершити процедуру записування або зробити ще одну копію образу.</p>
+        <note>
+          <p>Якщо ви використовуєте перезаписуваний диск, на якому вже зберігаються дані, програма запитає вас, хочете ви витерти диск чи вставити інший диск.</p>
+        </note>
+    </item>
+    <!-- There are some problems with multiple burn. After burning one copy,
+    Brasero asks for manual ejecting and then often doesn't detect it. The same
+    problem appears by putting inside new CD or DVD - Brasero doesn't always
+    detect it. Besides the multiple burn option has the same functionality as
+    Burn - they both allow to burn one or several copies, so one option would be
+    enough.-->
+
+  </steps>
+
+</page>

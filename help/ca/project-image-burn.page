@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-image-burn" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#new-project"/>
+    <link type="seealso" xref="project-audio"/>
+    <link type="seealso" xref="project-disc-copy"/>
+    <link type="seealso" xref="project-video"/>
+    <revision version="3.3" date="2011-10-14" status="review"/>
+    <desc>Graveu una imatge de disc existent en un CD o DVD.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Domech</mal:name>
+      <mal:email>frandj72@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Enregistrament d'una imatge</title>
+
+  <p>El <app>Brasero</app> us permet enregistrar imatges de disc en un CD o DVD. Admet les extensions d'imatge de disc òptic següents: <file>.iso</file>, <file>.toc</file> i <file>.cue</file>.</p>
+
+  <note style="advanced">
+    <p>Les imatges de disc són fitxers d'arxiu que contenen totes les dades que es troben en un CD o DVD. Només pot haver-hi una imatge de disc en un CD, però cada arxiu pot contenir tan poques o tantes dades com vulgueu, sempre que càpiga al disc.</p>
+  </note>
+
+  <p>Per a gravar una imatge de disc en un CD o DVD, seguiu aquests passos:</p>
+  <steps>
+    <item>
+      <p>Feu clic a <gui>Enregistra una imatge</gui> a la finestra principal o trieu <guiseq><gui>Projecte</gui><gui>Projecte nou</gui><gui>Enregistra una imatge…</gui> </guiseq>.</p>
+    </item>
+    <item>
+      <p>Seleccioneu una imatge de disc a escriure fent clic a <gui>Feu clic per a seleccionar una imatge de disc</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccioneu el disc que voleu utilitzar a la llista desplegable sota <gui>Seleccioneu un disc on escriure</gui>. Si teniu més d'una unitat de disc, tots els discos que hi hagi actualment haurien de ser a la llista.</p>
+        <note><p>Després de triar el disc, el <app>Brasero</app> mostra la quantitat d'espai lliure que restarà al disc després de gravar.</p></note>
+    </item>
+    <item>
+      <p>Feu clic al botó <gui>Propietats</gui> per a seleccionar la velocitat de gravació i altres opcions personalitzades.</p>
+    </item>
+    <item>
+      <p>Feu clic a <gui>Enregistra</gui> per a començar a gravar la imatge. Després d'aquesta operació, podeu finalitzar la gravació o fer l'altra còpia de la imatge.</p>
+        <note>
+          <p>Si utilitzeu un disc reenregistrable que ja conté dades, se us demanarà si voleu esborrar-lo o inserir un altre disc.</p>
+        </note>
+    </item>
+    <!-- There are some problems with multiple burn. After burning one copy,
+    Brasero asks for manual ejecting and then often doesn't detect it. The same
+    problem appears by putting inside new CD or DVD - Brasero doesn't always
+    detect it. Besides the multiple burn option has the same functionality as
+    Burn - they both allow to burn one or several copies, so one option would be
+    enough.-->
+
+  </steps>
+
+</page>

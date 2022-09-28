@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="project-data" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#new-project"/>
+    <desc>Escriure dades a un CD o DVD.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Domech</mal:name>
+      <mal:email>frandj72@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Creació d'un projecte de dades</title>
+
+  <p>Un projecte de dades s'utilitza per a escriure dades (per exemple, fitxers, fotos o música) en un disc, sense canviar gens els fitxers. Això pot ser útil per a transferir fitxers entre ordinadors.</p>
+
+  <steps>
+    <item>
+      <p>Feu clic a <gui>Projecte de dades</gui> a la finestra principal o trieu <guiseq><gui>Projecte</gui><gui>Projecte nou</gui><gui>Projecte de dades nou</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Afegiu els fitxers desitjats al projecte fent clic a <gui>Afegeix fitxers al projecte</gui> a la barra d'eines i seleccionant els fitxers. També podeu afegir fitxers arrossegant-los i deixant-los anar a l'àrea del projecte o fent clic a <guiseq><gui>Edita</gui><gui>Afegeix fitxers</gui></guiseq>.</p>
+      <note style="tip">
+	<p>Podeu crear carpetes al CD per a emmagatzemar les dades d'una manera més estructurada. Per a crear una carpeta, feu clic a <gui>Carpeta nova</gui> a la barra d'eines o seleccioneu <guiseq><gui>Edita</gui><gui>Carpeta nova</gui></guiseq> a la barra de menús. També podeu crear carpetes dins d'altres carpetes.</p>
+      </note>
+    </item>
+    <item>
+      <p>Podeu afegir un títol al disc a l'entrada de text de sota l'àrea de projecte.</p>
+    </item>
+    <item>
+      <p>Trieu el disc en blanc de la llista desplegable.</p>
+    </item>
+    <item>
+      <p>Feu clic a <gui>Enregistra...</gui> per a continuar.</p>
+    </item>
+    <item>
+      <p>Trieu la <gui>Velocitat d'enregistrament</gui> des de la llista desplegable i qualsevol altra opció que vulgueu canviar.</p>
+    </item>
+    <item>
+      <p>Feu clic a <gui>Enregistra</gui> per a gravar un CD del projecte o <gui>Enregistra diverses còpies</gui> per a gravar el projecte en diversos CD</p>
+      <note>
+        <p>Si utilitzeu un disc reenregistrable que ja conté dades, se us demanarà si voleu esborrar-lo o inserir un altre disc.</p>
+      </note>
+    </item>
+  </steps>
+
+  <p>Si no s'enregistren correctament les dades en un disc reenregistrable hauríeu de fer una neteja completa del disc abans de tornar-ho a provar.</p>
+
+</page>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="prob-dvd" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="project-video"/>
+    <link type="seealso" xref="tools-blank"/>
+    <desc>No puc escriure DVD-R o DVD-RW.</desc>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@googlemail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Domech</mal:name>
+      <mal:email>frandj72@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Problemes en la creació de DVD</title>
+
+  <p>Alguns tipus de DVD-R i DVD-RW no són compatibles amb tots els gravadors. Comproveu els següents per a saber si poden utilitzar-se amb el vostre gravador.</p>
+
+  <steps>
+    <item>
+      <p>Comproveu si la vostra unitat de DVD accepta discos DVD+ o DVD-; si inclou l'etiqueta «multi», sol indicar que accepta tots dos. Comproveu el vostre disc per a veure si es correspon amb la unitat de DVD.</p>
+    </item>
+    <item>
+      <p>Comproveu si el vostre disc és de doble capa o d'una sola capa: algunes unitats de DVD no poden escriure en un disc de doble capa.</p>
+    </item>
+    <item>
+      <p>Si esteu intentant utilitzar un DVD-R, comproveu si ja s'hi ha escrit abans. Si esteu utilitzant un DVD-RW, intenteu esborrar-lo abans d'intentar escriure-hi.</p>
+    </item>
+  </steps>
+
+</page>
