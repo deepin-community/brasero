@@ -6,7 +6,7 @@ Source: brasero
 Section: gnome
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>, Jordi Mallach <jordi@debian.org>, Michael Biebl <biebl@debian.org>
+Uploaders: Iain Lane <laney@debian.org>, Jordi Mallach <jordi@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>
 Build-Depends: debhelper-compat (= 13),
                gnome-common,
                dh-sequence-gir,
@@ -25,7 +25,6 @@ Build-Depends: debhelper-compat (= 13),
                libnotify-dev (>= 0.6.1),
                libcanberra-dev (>= 0.1),
                libcanberra-gtk3-dev (>= 0.1),
-               libnautilus-extension-dev (>= 3.21.92-3~),
                libburn-dev (>= 0.4.0),
                libisofs-dev (>= 0.6.4),
                libtracker-sparql-3.0-dev,
@@ -49,8 +48,7 @@ Depends: ${shlibs:Depends},
          libbrasero-media3-1 (= ${binary:Version}),
          brasero-common (= ${source:Version})
 Recommends: yelp,
-            brasero-cdrkit,
-            nautilus-extension-brasero
+            brasero-cdrkit
 Suggests: vcdimager,
           libdvdcss2,
           tracker
@@ -157,21 +155,3 @@ Description: CD/DVD burning library for GNOME - GObject introspection data
  .
  It can be used by packages using the GIRepository format to generate
  dynamic bindings.
-
-Package: nautilus-extension-brasero
-Architecture: any
-Depends: ${shlibs:Depends},
-         ${misc:Depends},
-         gvfs
-Enhances: nautilus
-Breaks: brasero (<< 3.12.1-5~)
-Replaces: brasero (<< 3.12.1-5~)
-Description: CD/DVD burning integration for Nautilus
- Brasero is a simple application to burn, copy and erase CD and DVD
- media: audio, video or data. It features among other things:
-  * On-the-fly burning
-  * Multisession support
-  * On-the-fly conversion of music playlists in all formats supported by
-    GStreamer
- .
- This package contains the extension for Nautilus, the GNOME Files app.

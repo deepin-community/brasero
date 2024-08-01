@@ -1,3 +1,10 @@
+brasero (3.12.3-2) unstable; urgency=medium
+
+  * Team upload
+  * Removed nautilus extension since it's incompatible with nautilus 43
+
+ -- Jesús Soto <jesus.soto@canonical.com>  Tue, 16 Aug 2022 16:26:53 -0400
+
 brasero (3.12.3-1) unstable; urgency=medium
 
   * New upstream release
